@@ -1,0 +1,23 @@
+{
+  "name": "f600",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-appsync": "^1.8.1",
+    "graphql-tag": "^2.10.1",
+    "next": "^9.0.2",
+    "next-apollo-appsync": "0.0.7",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.8",
+    "react-dom": "^16.8.6"
+  }
+}

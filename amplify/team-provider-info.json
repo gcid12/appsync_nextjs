@@ -1,0 +1,14 @@
+{
+    "devsix": {
+        "awscloudformation": {
+            "AuthRoleName": "f600-devsix-20190723203509-authRole",
+            "UnauthRoleArn": "arn:aws:iam::723809802133:role/f600-devsix-20190723203509-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::723809802133:role/f600-devsix-20190723203509-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "f600-devsix-20190723203509-deployment",
+            "UnauthRoleName": "f600-devsix-20190723203509-unauthRole",
+            "StackName": "f600-devsix-20190723203509",
+            "StackId": "arn:aws:cloudformation:us-west-2:723809802133:stack/f600-devsix-20190723203509/09d09290-adc4-11e9-a7d0-0206b4669a7e"
+        }
+    }
+}

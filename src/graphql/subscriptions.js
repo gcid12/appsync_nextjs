@@ -1,0 +1,978 @@
+// eslint-disable
+// this is an auto generated file. This will be overwritten
+
+export const onCreateSkills = `subscription OnCreateSkills {
+  onCreateSkills {
+    id
+    name
+    fullName
+    description
+    certified
+    category
+    subCategory
+    icon
+    rating
+    user {
+      id
+      about
+      answered
+      answers
+      asked
+      avatar
+      balance
+      cognitoId
+      earned
+      email
+      entities
+      first
+      friends
+      lang
+      last
+      locations
+      rating
+      status
+      username
+      accountNumber
+      stripeCustomerId
+    }
+  }
+}
+`;
+export const onUpdateSkills = `subscription OnUpdateSkills {
+  onUpdateSkills {
+    id
+    name
+    fullName
+    description
+    certified
+    category
+    subCategory
+    icon
+    rating
+    user {
+      id
+      about
+      answered
+      answers
+      asked
+      avatar
+      balance
+      cognitoId
+      earned
+      email
+      entities
+      first
+      friends
+      lang
+      last
+      locations
+      rating
+      status
+      username
+      accountNumber
+      stripeCustomerId
+    }
+  }
+}
+`;
+export const onDeleteSkills = `subscription OnDeleteSkills {
+  onDeleteSkills {
+    id
+    name
+    fullName
+    description
+    certified
+    category
+    subCategory
+    icon
+    rating
+    user {
+      id
+      about
+      answered
+      answers
+      asked
+      avatar
+      balance
+      cognitoId
+      earned
+      email
+      entities
+      first
+      friends
+      lang
+      last
+      locations
+      rating
+      status
+      username
+      accountNumber
+      stripeCustomerId
+    }
+  }
+}
+`;
+export const onCreateCertificates = `subscription OnCreateCertificates {
+  onCreateCertificates {
+    id
+    name
+    origin
+    originURL
+    description
+    category
+    subCategory
+    icon
+    status
+    user {
+      id
+      about
+      answered
+      answers
+      asked
+      avatar
+      balance
+      cognitoId
+      earned
+      email
+      entities
+      first
+      friends
+      lang
+      last
+      locations
+      rating
+      status
+      username
+      accountNumber
+      stripeCustomerId
+    }
+  }
+}
+`;
+export const onUpdateCertificates = `subscription OnUpdateCertificates {
+  onUpdateCertificates {
+    id
+    name
+    origin
+    originURL
+    description
+    category
+    subCategory
+    icon
+    status
+    user {
+      id
+      about
+      answered
+      answers
+      asked
+      avatar
+      balance
+      cognitoId
+      earned
+      email
+      entities
+      first
+      friends
+      lang
+      last
+      locations
+      rating
+      status
+      username
+      accountNumber
+      stripeCustomerId
+    }
+  }
+}
+`;
+export const onDeleteCertificates = `subscription OnDeleteCertificates {
+  onDeleteCertificates {
+    id
+    name
+    origin
+    originURL
+    description
+    category
+    subCategory
+    icon
+    status
+    user {
+      id
+      about
+      answered
+      answers
+      asked
+      avatar
+      balance
+      cognitoId
+      earned
+      email
+      entities
+      first
+      friends
+      lang
+      last
+      locations
+      rating
+      status
+      username
+      accountNumber
+      stripeCustomerId
+    }
+  }
+}
+`;
+export const onCreateAnswer = `subscription OnCreateAnswer {
+  onCreateAnswer {
+    id
+    accessible
+    answer
+    author
+    authorId
+    bch
+    bounty
+    createdAt
+    credit
+    degree
+    lang
+    licence
+    modifiedAt
+    questionId
+    question {
+      id
+      accessible
+      author
+      authorId
+      bch
+      comments
+      count
+      createdAt
+      d1
+      d2
+      d3
+      d4
+      entity
+      entityId
+      entityLogo
+      lang
+      myAnswer
+      question
+      rated
+      status
+      taskId
+    }
+    rating
+    status
+  }
+}
+`;
+export const onUpdateAnswer = `subscription OnUpdateAnswer {
+  onUpdateAnswer {
+    id
+    accessible
+    answer
+    author
+    authorId
+    bch
+    bounty
+    createdAt
+    credit
+    degree
+    lang
+    licence
+    modifiedAt
+    questionId
+    question {
+      id
+      accessible
+      author
+      authorId
+      bch
+      comments
+      count
+      createdAt
+      d1
+      d2
+      d3
+      d4
+      entity
+      entityId
+      entityLogo
+      lang
+      myAnswer
+      question
+      rated
+      status
+      taskId
+    }
+    rating
+    status
+  }
+}
+`;
+export const onDeleteAnswer = `subscription OnDeleteAnswer {
+  onDeleteAnswer {
+    id
+    accessible
+    answer
+    author
+    authorId
+    bch
+    bounty
+    createdAt
+    credit
+    degree
+    lang
+    licence
+    modifiedAt
+    questionId
+    question {
+      id
+      accessible
+      author
+      authorId
+      bch
+      comments
+      count
+      createdAt
+      d1
+      d2
+      d3
+      d4
+      entity
+      entityId
+      entityLogo
+      lang
+      myAnswer
+      question
+      rated
+      status
+      taskId
+    }
+    rating
+    status
+  }
+}
+`;
+export const onCreateComment = `subscription OnCreateComment {
+  onCreateComment {
+    eventId
+    commentId
+    content
+    createdAt
+  }
+}
+`;
+export const onUpdateComment = `subscription OnUpdateComment {
+  onUpdateComment {
+    eventId
+    commentId
+    content
+    createdAt
+  }
+}
+`;
+export const onDeleteComment = `subscription OnDeleteComment {
+  onDeleteComment {
+    eventId
+    commentId
+    content
+    createdAt
+  }
+}
+`;
+export const onCreateEntity = `subscription OnCreateEntity {
+  onCreateEntity {
+    id
+    answerCount
+    createdAt
+    createdBy
+    description
+    displayName
+    locations
+    logo
+    members
+    modifiedAt
+    name
+    parentEntity
+    q1d
+    q2d
+    q3d
+    q4d
+    q5d
+    questionCount
+    questions
+    score
+    skills
+    status
+    theme
+    wall
+    website
+  }
+}
+`;
+export const onUpdateEntity = `subscription OnUpdateEntity {
+  onUpdateEntity {
+    id
+    answerCount
+    createdAt
+    createdBy
+    description
+    displayName
+    locations
+    logo
+    members
+    modifiedAt
+    name
+    parentEntity
+    q1d
+    q2d
+    q3d
+    q4d
+    q5d
+    questionCount
+    questions
+    score
+    skills
+    status
+    theme
+    wall
+    website
+  }
+}
+`;
+export const onDeleteEntity = `subscription OnDeleteEntity {
+  onDeleteEntity {
+    id
+    answerCount
+    createdAt
+    createdBy
+    description
+    displayName
+    locations
+    logo
+    members
+    modifiedAt
+    name
+    parentEntity
+    q1d
+    q2d
+    q3d
+    q4d
+    q5d
+    questionCount
+    questions
+    score
+    skills
+    status
+    theme
+    wall
+    website
+  }
+}
+`;
+export const onCreateEvent = `subscription OnCreateEvent {
+  onCreateEvent {
+    id
+    assignedTo
+    bounty
+    comments
+    count
+    createdAt
+    createdBy
+    description
+    entity
+    modifiedAt
+    name
+    questions
+    status
+    when
+    where
+  }
+}
+`;
+export const onUpdateEvent = `subscription OnUpdateEvent {
+  onUpdateEvent {
+    id
+    assignedTo
+    bounty
+    comments
+    count
+    createdAt
+    createdBy
+    description
+    entity
+    modifiedAt
+    name
+    questions
+    status
+    when
+    where
+  }
+}
+`;
+export const onDeleteEvent = `subscription OnDeleteEvent {
+  onDeleteEvent {
+    id
+    assignedTo
+    bounty
+    comments
+    count
+    createdAt
+    createdBy
+    description
+    entity
+    modifiedAt
+    name
+    questions
+    status
+    when
+    where
+  }
+}
+`;
+export const onCreateQuestion = `subscription OnCreateQuestion {
+  onCreateQuestion {
+    id
+    accessible
+    answers {
+      nextToken
+    }
+    author
+    authorId
+    bch
+    comments
+    count
+    createdAt
+    d1
+    d2
+    d3
+    d4
+    entity
+    entityId
+    entityLogo
+    lang
+    myAnswer
+    question
+    rated
+    status
+    task {
+      id
+      assignedTo
+      assignedToName
+      bounty
+      comments
+      count
+      createdAt
+      createdBy
+      description
+      entity
+      entityId
+      entityLogo
+      modifiedAt
+      name
+      status
+      when
+      where
+      transaction
+      paidAmount
+      paidBy
+      paidAt
+      goal
+      transferTo
+      transferAt
+      transferId
+    }
+    taskId
+  }
+}
+`;
+export const onUpdateQuestion = `subscription OnUpdateQuestion {
+  onUpdateQuestion {
+    id
+    accessible
+    answers {
+      nextToken
+    }
+    author
+    authorId
+    bch
+    comments
+    count
+    createdAt
+    d1
+    d2
+    d3
+    d4
+    entity
+    entityId
+    entityLogo
+    lang
+    myAnswer
+    question
+    rated
+    status
+    task {
+      id
+      assignedTo
+      assignedToName
+      bounty
+      comments
+      count
+      createdAt
+      createdBy
+      description
+      entity
+      entityId
+      entityLogo
+      modifiedAt
+      name
+      status
+      when
+      where
+      transaction
+      paidAmount
+      paidBy
+      paidAt
+      goal
+      transferTo
+      transferAt
+      transferId
+    }
+    taskId
+  }
+}
+`;
+export const onDeleteQuestion = `subscription OnDeleteQuestion {
+  onDeleteQuestion {
+    id
+    accessible
+    answers {
+      nextToken
+    }
+    author
+    authorId
+    bch
+    comments
+    count
+    createdAt
+    d1
+    d2
+    d3
+    d4
+    entity
+    entityId
+    entityLogo
+    lang
+    myAnswer
+    question
+    rated
+    status
+    task {
+      id
+      assignedTo
+      assignedToName
+      bounty
+      comments
+      count
+      createdAt
+      createdBy
+      description
+      entity
+      entityId
+      entityLogo
+      modifiedAt
+      name
+      status
+      when
+      where
+      transaction
+      paidAmount
+      paidBy
+      paidAt
+      goal
+      transferTo
+      transferAt
+      transferId
+    }
+    taskId
+  }
+}
+`;
+export const onCreateTask = `subscription OnCreateTask {
+  onCreateTask {
+    id
+    assignedTo
+    assignedToName
+    bounty
+    comments
+    count
+    createdAt
+    createdBy
+    description
+    entity
+    entityId
+    entityLogo
+    modifiedAt
+    name
+    questions {
+      nextToken
+    }
+    status
+    when
+    where
+    transaction
+    paidAmount
+    paidBy
+    paidAt
+    goal
+    transferTo
+    transferAt
+    transferId
+  }
+}
+`;
+export const onUpdateTask = `subscription OnUpdateTask {
+  onUpdateTask {
+    id
+    assignedTo
+    assignedToName
+    bounty
+    comments
+    count
+    createdAt
+    createdBy
+    description
+    entity
+    entityId
+    entityLogo
+    modifiedAt
+    name
+    questions {
+      nextToken
+    }
+    status
+    when
+    where
+    transaction
+    paidAmount
+    paidBy
+    paidAt
+    goal
+    transferTo
+    transferAt
+    transferId
+  }
+}
+`;
+export const onDeleteTask = `subscription OnDeleteTask {
+  onDeleteTask {
+    id
+    assignedTo
+    assignedToName
+    bounty
+    comments
+    count
+    createdAt
+    createdBy
+    description
+    entity
+    entityId
+    entityLogo
+    modifiedAt
+    name
+    questions {
+      nextToken
+    }
+    status
+    when
+    where
+    transaction
+    paidAmount
+    paidBy
+    paidAt
+    goal
+    transferTo
+    transferAt
+    transferId
+  }
+}
+`;
+export const onCreateVariant = `subscription OnCreateVariant {
+  onCreateVariant {
+    id
+    accessible
+    author
+    bch
+    createdAt
+    lang
+    parentQuestion
+    question
+    rated
+    status
+  }
+}
+`;
+export const onUpdateVariant = `subscription OnUpdateVariant {
+  onUpdateVariant {
+    id
+    accessible
+    author
+    bch
+    createdAt
+    lang
+    parentQuestion
+    question
+    rated
+    status
+  }
+}
+`;
+export const onDeleteVariant = `subscription OnDeleteVariant {
+  onDeleteVariant {
+    id
+    accessible
+    author
+    bch
+    createdAt
+    lang
+    parentQuestion
+    question
+    rated
+    status
+  }
+}
+`;
+export const onCreateUser = `subscription OnCreateUser {
+  onCreateUser {
+    id
+    about
+    answered
+    answers
+    asked
+    avatar
+    balance
+    cognitoId
+    earned
+    email
+    entities
+    first
+    friends
+    lang
+    last
+    locations
+    rating
+    status
+    username
+    accountNumber
+    stripeCustomerId
+    skills {
+      nextToken
+    }
+    certificates {
+      nextToken
+    }
+  }
+}
+`;
+export const onUpdateUser = `subscription OnUpdateUser {
+  onUpdateUser {
+    id
+    about
+    answered
+    answers
+    asked
+    avatar
+    balance
+    cognitoId
+    earned
+    email
+    entities
+    first
+    friends
+    lang
+    last
+    locations
+    rating
+    status
+    username
+    accountNumber
+    stripeCustomerId
+    skills {
+      nextToken
+    }
+    certificates {
+      nextToken
+    }
+  }
+}
+`;
+export const onDeleteUser = `subscription OnDeleteUser {
+  onDeleteUser {
+    id
+    about
+    answered
+    answers
+    asked
+    avatar
+    balance
+    cognitoId
+    earned
+    email
+    entities
+    first
+    friends
+    lang
+    last
+    locations
+    rating
+    status
+    username
+    accountNumber
+    stripeCustomerId
+    skills {
+      nextToken
+    }
+    certificates {
+      nextToken
+    }
+  }
+}
+`;
+export const onCreateStripeCustomer = `subscription OnCreateStripeCustomer {
+  onCreateStripeCustomer {
+    id
+    cognitoId
+    cust_id
+    cust_email
+    brand
+    last4
+    created
+  }
+}
+`;
+export const onUpdateStripeCustomer = `subscription OnUpdateStripeCustomer {
+  onUpdateStripeCustomer {
+    id
+    cognitoId
+    cust_id
+    cust_email
+    brand
+    last4
+    created
+  }
+}
+`;
+export const onDeleteStripeCustomer = `subscription OnDeleteStripeCustomer {
+  onDeleteStripeCustomer {
+    id
+    cognitoId
+    cust_id
+    cust_email
+    brand
+    last4
+    created
+  }
+}
+`;

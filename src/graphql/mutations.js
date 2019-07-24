@@ -1,0 +1,978 @@
+// eslint-disable
+// this is an auto generated file. This will be overwritten
+
+export const createSkills = `mutation CreateSkills($input: CreateSkillsInput!) {
+  createSkills(input: $input) {
+    id
+    name
+    fullName
+    description
+    certified
+    category
+    subCategory
+    icon
+    rating
+    user {
+      id
+      about
+      answered
+      answers
+      asked
+      avatar
+      balance
+      cognitoId
+      earned
+      email
+      entities
+      first
+      friends
+      lang
+      last
+      locations
+      rating
+      status
+      username
+      accountNumber
+      stripeCustomerId
+    }
+  }
+}
+`;
+export const updateSkills = `mutation UpdateSkills($input: UpdateSkillsInput!) {
+  updateSkills(input: $input) {
+    id
+    name
+    fullName
+    description
+    certified
+    category
+    subCategory
+    icon
+    rating
+    user {
+      id
+      about
+      answered
+      answers
+      asked
+      avatar
+      balance
+      cognitoId
+      earned
+      email
+      entities
+      first
+      friends
+      lang
+      last
+      locations
+      rating
+      status
+      username
+      accountNumber
+      stripeCustomerId
+    }
+  }
+}
+`;
+export const deleteSkills = `mutation DeleteSkills($input: DeleteSkillsInput!) {
+  deleteSkills(input: $input) {
+    id
+    name
+    fullName
+    description
+    certified
+    category
+    subCategory
+    icon
+    rating
+    user {
+      id
+      about
+      answered
+      answers
+      asked
+      avatar
+      balance
+      cognitoId
+      earned
+      email
+      entities
+      first
+      friends
+      lang
+      last
+      locations
+      rating
+      status
+      username
+      accountNumber
+      stripeCustomerId
+    }
+  }
+}
+`;
+export const createCertificates = `mutation CreateCertificates($input: CreateCertificatesInput!) {
+  createCertificates(input: $input) {
+    id
+    name
+    origin
+    originURL
+    description
+    category
+    subCategory
+    icon
+    status
+    user {
+      id
+      about
+      answered
+      answers
+      asked
+      avatar
+      balance
+      cognitoId
+      earned
+      email
+      entities
+      first
+      friends
+      lang
+      last
+      locations
+      rating
+      status
+      username
+      accountNumber
+      stripeCustomerId
+    }
+  }
+}
+`;
+export const updateCertificates = `mutation UpdateCertificates($input: UpdateCertificatesInput!) {
+  updateCertificates(input: $input) {
+    id
+    name
+    origin
+    originURL
+    description
+    category
+    subCategory
+    icon
+    status
+    user {
+      id
+      about
+      answered
+      answers
+      asked
+      avatar
+      balance
+      cognitoId
+      earned
+      email
+      entities
+      first
+      friends
+      lang
+      last
+      locations
+      rating
+      status
+      username
+      accountNumber
+      stripeCustomerId
+    }
+  }
+}
+`;
+export const deleteCertificates = `mutation DeleteCertificates($input: DeleteCertificatesInput!) {
+  deleteCertificates(input: $input) {
+    id
+    name
+    origin
+    originURL
+    description
+    category
+    subCategory
+    icon
+    status
+    user {
+      id
+      about
+      answered
+      answers
+      asked
+      avatar
+      balance
+      cognitoId
+      earned
+      email
+      entities
+      first
+      friends
+      lang
+      last
+      locations
+      rating
+      status
+      username
+      accountNumber
+      stripeCustomerId
+    }
+  }
+}
+`;
+export const createAnswer = `mutation CreateAnswer($input: CreateAnswerInput!) {
+  createAnswer(input: $input) {
+    id
+    accessible
+    answer
+    author
+    authorId
+    bch
+    bounty
+    createdAt
+    credit
+    degree
+    lang
+    licence
+    modifiedAt
+    questionId
+    question {
+      id
+      accessible
+      author
+      authorId
+      bch
+      comments
+      count
+      createdAt
+      d1
+      d2
+      d3
+      d4
+      entity
+      entityId
+      entityLogo
+      lang
+      myAnswer
+      question
+      rated
+      status
+      taskId
+    }
+    rating
+    status
+  }
+}
+`;
+export const updateAnswer = `mutation UpdateAnswer($input: UpdateAnswerInput!) {
+  updateAnswer(input: $input) {
+    id
+    accessible
+    answer
+    author
+    authorId
+    bch
+    bounty
+    createdAt
+    credit
+    degree
+    lang
+    licence
+    modifiedAt
+    questionId
+    question {
+      id
+      accessible
+      author
+      authorId
+      bch
+      comments
+      count
+      createdAt
+      d1
+      d2
+      d3
+      d4
+      entity
+      entityId
+      entityLogo
+      lang
+      myAnswer
+      question
+      rated
+      status
+      taskId
+    }
+    rating
+    status
+  }
+}
+`;
+export const deleteAnswer = `mutation DeleteAnswer($input: DeleteAnswerInput!) {
+  deleteAnswer(input: $input) {
+    id
+    accessible
+    answer
+    author
+    authorId
+    bch
+    bounty
+    createdAt
+    credit
+    degree
+    lang
+    licence
+    modifiedAt
+    questionId
+    question {
+      id
+      accessible
+      author
+      authorId
+      bch
+      comments
+      count
+      createdAt
+      d1
+      d2
+      d3
+      d4
+      entity
+      entityId
+      entityLogo
+      lang
+      myAnswer
+      question
+      rated
+      status
+      taskId
+    }
+    rating
+    status
+  }
+}
+`;
+export const createComment = `mutation CreateComment($input: CreateCommentInput!) {
+  createComment(input: $input) {
+    eventId
+    commentId
+    content
+    createdAt
+  }
+}
+`;
+export const updateComment = `mutation UpdateComment($input: UpdateCommentInput!) {
+  updateComment(input: $input) {
+    eventId
+    commentId
+    content
+    createdAt
+  }
+}
+`;
+export const deleteComment = `mutation DeleteComment($input: DeleteCommentInput!) {
+  deleteComment(input: $input) {
+    eventId
+    commentId
+    content
+    createdAt
+  }
+}
+`;
+export const createEntity = `mutation CreateEntity($input: CreateEntityInput!) {
+  createEntity(input: $input) {
+    id
+    answerCount
+    createdAt
+    createdBy
+    description
+    displayName
+    locations
+    logo
+    members
+    modifiedAt
+    name
+    parentEntity
+    q1d
+    q2d
+    q3d
+    q4d
+    q5d
+    questionCount
+    questions
+    score
+    skills
+    status
+    theme
+    wall
+    website
+  }
+}
+`;
+export const updateEntity = `mutation UpdateEntity($input: UpdateEntityInput!) {
+  updateEntity(input: $input) {
+    id
+    answerCount
+    createdAt
+    createdBy
+    description
+    displayName
+    locations
+    logo
+    members
+    modifiedAt
+    name
+    parentEntity
+    q1d
+    q2d
+    q3d
+    q4d
+    q5d
+    questionCount
+    questions
+    score
+    skills
+    status
+    theme
+    wall
+    website
+  }
+}
+`;
+export const deleteEntity = `mutation DeleteEntity($input: DeleteEntityInput!) {
+  deleteEntity(input: $input) {
+    id
+    answerCount
+    createdAt
+    createdBy
+    description
+    displayName
+    locations
+    logo
+    members
+    modifiedAt
+    name
+    parentEntity
+    q1d
+    q2d
+    q3d
+    q4d
+    q5d
+    questionCount
+    questions
+    score
+    skills
+    status
+    theme
+    wall
+    website
+  }
+}
+`;
+export const createEvent = `mutation CreateEvent($input: CreateEventInput!) {
+  createEvent(input: $input) {
+    id
+    assignedTo
+    bounty
+    comments
+    count
+    createdAt
+    createdBy
+    description
+    entity
+    modifiedAt
+    name
+    questions
+    status
+    when
+    where
+  }
+}
+`;
+export const updateEvent = `mutation UpdateEvent($input: UpdateEventInput!) {
+  updateEvent(input: $input) {
+    id
+    assignedTo
+    bounty
+    comments
+    count
+    createdAt
+    createdBy
+    description
+    entity
+    modifiedAt
+    name
+    questions
+    status
+    when
+    where
+  }
+}
+`;
+export const deleteEvent = `mutation DeleteEvent($input: DeleteEventInput!) {
+  deleteEvent(input: $input) {
+    id
+    assignedTo
+    bounty
+    comments
+    count
+    createdAt
+    createdBy
+    description
+    entity
+    modifiedAt
+    name
+    questions
+    status
+    when
+    where
+  }
+}
+`;
+export const createQuestion = `mutation CreateQuestion($input: CreateQuestionInput!) {
+  createQuestion(input: $input) {
+    id
+    accessible
+    answers {
+      nextToken
+    }
+    author
+    authorId
+    bch
+    comments
+    count
+    createdAt
+    d1
+    d2
+    d3
+    d4
+    entity
+    entityId
+    entityLogo
+    lang
+    myAnswer
+    question
+    rated
+    status
+    task {
+      id
+      assignedTo
+      assignedToName
+      bounty
+      comments
+      count
+      createdAt
+      createdBy
+      description
+      entity
+      entityId
+      entityLogo
+      modifiedAt
+      name
+      status
+      when
+      where
+      transaction
+      paidAmount
+      paidBy
+      paidAt
+      goal
+      transferTo
+      transferAt
+      transferId
+    }
+    taskId
+  }
+}
+`;
+export const updateQuestion = `mutation UpdateQuestion($input: UpdateQuestionInput!) {
+  updateQuestion(input: $input) {
+    id
+    accessible
+    answers {
+      nextToken
+    }
+    author
+    authorId
+    bch
+    comments
+    count
+    createdAt
+    d1
+    d2
+    d3
+    d4
+    entity
+    entityId
+    entityLogo
+    lang
+    myAnswer
+    question
+    rated
+    status
+    task {
+      id
+      assignedTo
+      assignedToName
+      bounty
+      comments
+      count
+      createdAt
+      createdBy
+      description
+      entity
+      entityId
+      entityLogo
+      modifiedAt
+      name
+      status
+      when
+      where
+      transaction
+      paidAmount
+      paidBy
+      paidAt
+      goal
+      transferTo
+      transferAt
+      transferId
+    }
+    taskId
+  }
+}
+`;
+export const deleteQuestion = `mutation DeleteQuestion($input: DeleteQuestionInput!) {
+  deleteQuestion(input: $input) {
+    id
+    accessible
+    answers {
+      nextToken
+    }
+    author
+    authorId
+    bch
+    comments
+    count
+    createdAt
+    d1
+    d2
+    d3
+    d4
+    entity
+    entityId
+    entityLogo
+    lang
+    myAnswer
+    question
+    rated
+    status
+    task {
+      id
+      assignedTo
+      assignedToName
+      bounty
+      comments
+      count
+      createdAt
+      createdBy
+      description
+      entity
+      entityId
+      entityLogo
+      modifiedAt
+      name
+      status
+      when
+      where
+      transaction
+      paidAmount
+      paidBy
+      paidAt
+      goal
+      transferTo
+      transferAt
+      transferId
+    }
+    taskId
+  }
+}
+`;
+export const createTask = `mutation CreateTask($input: CreateTaskInput!) {
+  createTask(input: $input) {
+    id
+    assignedTo
+    assignedToName
+    bounty
+    comments
+    count
+    createdAt
+    createdBy
+    description
+    entity
+    entityId
+    entityLogo
+    modifiedAt
+    name
+    questions {
+      nextToken
+    }
+    status
+    when
+    where
+    transaction
+    paidAmount
+    paidBy
+    paidAt
+    goal
+    transferTo
+    transferAt
+    transferId
+  }
+}
+`;
+export const updateTask = `mutation UpdateTask($input: UpdateTaskInput!) {
+  updateTask(input: $input) {
+    id
+    assignedTo
+    assignedToName
+    bounty
+    comments
+    count
+    createdAt
+    createdBy
+    description
+    entity
+    entityId
+    entityLogo
+    modifiedAt
+    name
+    questions {
+      nextToken
+    }
+    status
+    when
+    where
+    transaction
+    paidAmount
+    paidBy
+    paidAt
+    goal
+    transferTo
+    transferAt
+    transferId
+  }
+}
+`;
+export const deleteTask = `mutation DeleteTask($input: DeleteTaskInput!) {
+  deleteTask(input: $input) {
+    id
+    assignedTo
+    assignedToName
+    bounty
+    comments
+    count
+    createdAt
+    createdBy
+    description
+    entity
+    entityId
+    entityLogo
+    modifiedAt
+    name
+    questions {
+      nextToken
+    }
+    status
+    when
+    where
+    transaction
+    paidAmount
+    paidBy
+    paidAt
+    goal
+    transferTo
+    transferAt
+    transferId
+  }
+}
+`;
+export const createVariant = `mutation CreateVariant($input: CreateVariantInput!) {
+  createVariant(input: $input) {
+    id
+    accessible
+    author
+    bch
+    createdAt
+    lang
+    parentQuestion
+    question
+    rated
+    status
+  }
+}
+`;
+export const updateVariant = `mutation UpdateVariant($input: UpdateVariantInput!) {
+  updateVariant(input: $input) {
+    id
+    accessible
+    author
+    bch
+    createdAt
+    lang
+    parentQuestion
+    question
+    rated
+    status
+  }
+}
+`;
+export const deleteVariant = `mutation DeleteVariant($input: DeleteVariantInput!) {
+  deleteVariant(input: $input) {
+    id
+    accessible
+    author
+    bch
+    createdAt
+    lang
+    parentQuestion
+    question
+    rated
+    status
+  }
+}
+`;
+export const createUser = `mutation CreateUser($input: CreateUserInput!) {
+  createUser(input: $input) {
+    id
+    about
+    answered
+    answers
+    asked
+    avatar
+    balance
+    cognitoId
+    earned
+    email
+    entities
+    first
+    friends
+    lang
+    last
+    locations
+    rating
+    status
+    username
+    accountNumber
+    stripeCustomerId
+    skills {
+      nextToken
+    }
+    certificates {
+      nextToken
+    }
+  }
+}
+`;
+export const updateUser = `mutation UpdateUser($input: UpdateUserInput!) {
+  updateUser(input: $input) {
+    id
+    about
+    answered
+    answers
+    asked
+    avatar
+    balance
+    cognitoId
+    earned
+    email
+    entities
+    first
+    friends
+    lang
+    last
+    locations
+    rating
+    status
+    username
+    accountNumber
+    stripeCustomerId
+    skills {
+      nextToken
+    }
+    certificates {
+      nextToken
+    }
+  }
+}
+`;
+export const deleteUser = `mutation DeleteUser($input: DeleteUserInput!) {
+  deleteUser(input: $input) {
+    id
+    about
+    answered
+    answers
+    asked
+    avatar
+    balance
+    cognitoId
+    earned
+    email
+    entities
+    first
+    friends
+    lang
+    last
+    locations
+    rating
+    status
+    username
+    accountNumber
+    stripeCustomerId
+    skills {
+      nextToken
+    }
+    certificates {
+      nextToken
+    }
+  }
+}
+`;
+export const createStripeCustomer = `mutation CreateStripeCustomer($input: CreateStripeCustomerInput!) {
+  createStripeCustomer(input: $input) {
+    id
+    cognitoId
+    cust_id
+    cust_email
+    brand
+    last4
+    created
+  }
+}
+`;
+export const updateStripeCustomer = `mutation UpdateStripeCustomer($input: UpdateStripeCustomerInput!) {
+  updateStripeCustomer(input: $input) {
+    id
+    cognitoId
+    cust_id
+    cust_email
+    brand
+    last4
+    created
+  }
+}
+`;
+export const deleteStripeCustomer = `mutation DeleteStripeCustomer($input: DeleteStripeCustomerInput!) {
+  deleteStripeCustomer(input: $input) {
+    id
+    cognitoId
+    cust_id
+    cust_email
+    brand
+    last4
+    created
+  }
+}
+`;
